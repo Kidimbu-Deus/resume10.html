@@ -149,6 +149,21 @@ list-style:none;
   
 }
 
+.navbar-nav{
+  padding-left: 20rem;
+  font-size: medium;
+}
+
+.navbar{
+  padding-left: 4rem;
+  padding: 1rem;
+}
+
+.navbar-brand{
+  font-size: 30px;
+
+}
+
 
 
 
