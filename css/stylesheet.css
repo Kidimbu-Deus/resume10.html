@@ -187,7 +187,21 @@ h3{
 .navigation{
   background-color: #4a2545;
   height: 100px;
+  position: fixed;
+  top: 0.91rem;
+  right: 0.91rem;
+  left: 0.91rem;
+  z-index: 1030;
 }
+
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 .navbar-nav{
   padding-left: -36rem;
   font-size: medium;
@@ -218,9 +232,11 @@ h3{
   background-color:white ;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: black;
   margin-bottom: 0;
   height: 500px;
+  margin-top: 5rem;
 }
 
 @keyframes animationLogo {
