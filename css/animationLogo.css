@@ -1,0 +1,17 @@
+@keyframes animationLogo {
+0% {transform: translatex(50px);}
+25% {transform:rotate(360deg);}
+100% {filter: sepia(60%);}
+}
+
+
+#logo:hover{
+width: 200px;
+height: 200px;
+animation-name: animationLogo;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+
+
+
