@@ -75,12 +75,12 @@
 
 header{
   color: black; /*Set text color to white*/
-  background-color: #534a37;
+  background-color: #dccca3;
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center; /*Move the text to middle of the page*/
   font-size: 25px;
-  padding-top: 5px; ;
+  padding-top: 15px;
 }
 
 #profilePhoto{
@@ -106,6 +106,18 @@ header{
 }
 
 #contents {padding: 1rem;
+}
+
+.about{
+  margin-right: 20px;
+}
+
+.card{
+  width: 8cm;
+  margin: 1rem;
+  border:0.2rem #9bb6a0;
+  border-style: groove;
+  background: none;
 }
 
 .listing{
@@ -135,15 +147,30 @@ h3{
   margin-right: 5px;
 }
 
-footer{background-color: #4a2545;
+footer{
+  background-color: #4a2545;
   text-align: center;
   margin: 15px;
   margin-top: 0;
 }
 
+@keyframes animationLogo {
+  0% {transform: translatex(50px);}
+  25% {transform:rotate(360deg);}
+  100% {filter: sepia(60%);}
+  }
+  
+  .icons:hover{
+  width: 200px;
+  height: 200px;
+  animation-name: animationLogo;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  }
 
 
-@media screen and (min-width:600px) {
+
+@media screen and (max-width:767px) {
   body{
     height: auto;
     width: auto;
@@ -159,8 +186,8 @@ footer{background-color: #4a2545;
     margin-bottom: 0%;
     height: auto;
     width: auto;
+    background-color:#dccca3;
   }
-
 
   footer{
     text-align: center;
@@ -168,12 +195,16 @@ footer{background-color: #4a2545;
     width: auto;
     margin: auto;
     margin-bottom: 0%;
+  }
 
+  .main{
+    font-size: small;
   }
 }
 
 @media screen and (min-width:768px) {
-  body{height: auto;
+  body{
+    height: auto;
     width: auto;
     font-size: medium;
     display: block;
@@ -185,19 +216,24 @@ footer{background-color: #4a2545;
     font-size: medium;
     display: block;
     margin: auto;
+    background-color: #dccca3;
+    padding-bottom: 300px;
+     
   }
 
-  footer{height: auto;
+  footer{
+    height: auto;
     width: auto;
     font-size: medium;
     display: block;
     margin: auto;
-
   }
-  
+  .main{
+    font-size: medium;
+  } 
 }
 
-@media  screen and (min-width:992px) {
+@media  screen and (min-width:991px) {
   body{
     font-family: sans-serif;
     font-size:110%;
@@ -208,7 +244,6 @@ footer{background-color: #4a2545;
     border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
     margin: 15px;
     padding: 0;
-   
   }
 
   header{
@@ -218,41 +253,20 @@ footer{background-color: #4a2545;
     justify-content: center; /*Move the text to middle of the page*/
     font-size: 25px;
     margin-top: 0;
-    height: 400px;
+    height: 300px;
     padding-top:70px;
+    color: black; /*Set text color to white*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center; /*Move the text to middle of the page*/
+    font-size: 25px;
+    padding-top: 36px; 
   }
 
-  footer{background-color: #4a2545;
+  footer{
+    background-color: #4a2545;
     text-align: center;
     margin: 15px;
-  
-
+    margin-top: 0;
   }
 }
-
-
-@keyframes animationLogo {
-  0% {transform: translatex(50px);}
-  25% {transform:rotate(360deg);}
-  100% {filter: sepia(60%);}
-  }
-  
-  
-  .icons:hover{
-  width: 200px;
-  height: 200px;
-  animation-name: animationLogo;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  }
-
-
-
-
-
-
-
-
-
-
-
