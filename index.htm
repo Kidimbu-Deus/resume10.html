@@ -18,32 +18,32 @@
             <div class="navigation">
                 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg sticky-top">
                     <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#educationAndQualificatons">Education and Qualifications</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#interests">Interests</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#software">Software</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#expirience">Expirience</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contactDetails">Contact Details</a>
-                        </li>
-                        </ul>
-                        
-                    </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#educationAndQualificatons">Education and Qualifications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#interests">Interests</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#software">Software</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#expirience">Expirience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contactDetails">Contact Details</a>
+                            </li>
+                            </ul>
+                            
+                        </div>
                     </div>
                 </nav>
                 
@@ -57,23 +57,51 @@
                         <p class="pb-2">Welcome to my website </p>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                            Launch demo modal
+                            Get in touch
                         </button>
                         
                         <!-- Modal -->
                         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                ...
-                                </div>
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Leave details below</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row ">
+                                            
+                                            <div class="container">
+                                                <form id="contact-form" role="form">
+                                                    <div class="controls">
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-group"> <label for="form_name">First name *</label> <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required."> </div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="form-group"> <label for="form_lastname">Last name *</label> <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required."> </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="form-group"> <label for="form_email">Email *</label> <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> </div>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="form-group"> <label for="form_message">Message *</label> <textarea id="form_message" name="message" class="form-control" placeholder="Write your message here." rows="4" required="required" data-error="Please, leave us a message."></textarea> </div>
+                                                            </div>
+                                                            <div class="col-md-12"> <input type="submit" class="btn btn-success btn-send pt-2 btn-block " value="Send Message"> </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                                    
+                                        </div>
+                                    </div>
                                 <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
                                 </div>
                             </div>
                             </div>

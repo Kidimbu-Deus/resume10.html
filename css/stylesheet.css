@@ -10,8 +10,62 @@
   padding: 0;
 }
 
+.navigation{
+  background-color: #4a2545;
+  height: 100px;
+  position: fixed;
+  top: 0.91rem;
+  right: 0.91rem;
+  left: 0.91rem;
+  z-index: 1030;
+}
+
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.navbar-nav{
+  padding-left: -36rem;
+  font-size: medium;
+}
+
+.navbar{
+  padding-left: 4rem;
+  padding: 1rem;
+}
+
+.navbar-brand{
+  font-size: 30px;
+}
+
+#sidebar {
+  background-color: rgba(109, 126, 123, 0.473);
+  width: 200px; 
+  padding: 1rem; 
+  list-style:none;
+  }
+
+.jumbotron {
+  padding: 3rem;
+  border-radius: 0;
+  background-image: url(/images/lightback.jpg);
+  background-color:white ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+  margin-bottom: 0;
+  height: 500px;
+  margin-top: 5rem;
+}
+
 .heading{
   font-weight: bolder;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .pb-2{
@@ -27,9 +81,7 @@ header{
   justify-content: center; /*Move the text to middle of the page*/
   font-size: 25px;
   padding-top: 5px; ;
-
 }
-
 
 #profilePhoto{
   width: 60%;
@@ -53,32 +105,12 @@ header{
   padding: 0;
 }
 
+#contents {padding: 1rem;
+}
+
 .listing{
   padding: 0; 
   list-style: none; /*Removes bullet points where unwanted*/
-}
-
-#myExpirience{
-  background:none;
-  margin-right: 0;
-  padding-left: 1rem;
-}
-
-footer{background-color: #4a2545;
-  text-align: center;
-  margin: 15px;
-  margin-top: 0;
-}
-
-
-#sidebar {
-background-color: rgba(109, 126, 123, 0.473);
-width: 200px; 
-padding: 1rem; 
-list-style:none;
-}
-
-#contents {padding: 1rem;
 }
 
 h3{
@@ -89,13 +121,27 @@ h3{
   margin-right: 20px;
 }
 
-.card{
-  width: 8cm;
-  margin: 1rem;
-  border:0.5rem #050a06;
-  border-style: groove;
-  background: none;
+#myExpirience{
+  background:none;
+  margin-right: 0;
+  padding-left: 1rem;
 }
+
+.carousel-inner{
+  width: 100%;
+  height: 100%;
+  background-color: #dccca3;
+  padding: 1rem;
+  margin-right: 5px;
+}
+
+footer{background-color: #4a2545;
+  text-align: center;
+  margin: 15px;
+  margin-top: 0;
+}
+
+
 
 @media screen and (min-width:600px) {
   body{
@@ -184,60 +230,6 @@ h3{
   }
 }
 
-.navigation{
-  background-color: #4a2545;
-  height: 100px;
-  position: fixed;
-  top: 0.91rem;
-  right: 0.91rem;
-  left: 0.91rem;
-  z-index: 1030;
-}
-
-.fixed-top{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-.navbar-nav{
-  padding-left: -36rem;
-  font-size: medium;
-}
-
-.navbar{
-  padding-left: 4rem;
-  padding: 1rem;
-}
-
-.navbar-brand{
-  font-size: 30px;
-
-}
-
-.carousel-inner{
-  width: 100%;
-  height: 100%;
-  background-color: #dccca3;
-  padding: 1rem;
-  margin-right: 5px;
-}
-
-.jumbotron {
-  padding: 3rem;
-  border-radius: 0;
-  background-image: url(/images/lightback.jpg);
-  background-color:white ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  color: black;
-  margin-bottom: 0;
-  height: 500px;
-  margin-top: 5rem;
-}
 
 @keyframes animationLogo {
   0% {transform: translatex(50px);}
