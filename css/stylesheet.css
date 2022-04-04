@@ -7,22 +7,18 @@ body{
   border: 15px solid;
   border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
   margin: 10px ;
-  
-
 }
 
 header{
   text-align: center;
   color: black; /*Set text color to white*/
   background-color: #343330;
-  background-image: url(../images/IMG-1543.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center; /*Move the text to middle of the page*/
   font-size: 25px;
   margin: 15px;
   margin-bottom: 0;
-  
 }
 
 #profilePhoto{
@@ -34,7 +30,8 @@ header{
   background: transparent; /*Remove headshot background color*/
 }
 
-.main{display: flex;
+.main{
+  display: flex;
   flex-direction: row;
   overflow:unset; /*Content fits perfectly on specified area*/
   margin: 15px;
@@ -43,7 +40,8 @@ header{
 }
 
 
-.listing{padding: 0; 
+.listing{
+  padding: 0; 
   list-style: none; /*Removes bullet points where unwanted*/
 
 }
@@ -53,7 +51,8 @@ footer{background-color: #343330;
   margin-top: 0;
 }
 
-#sidebar {background-color: rgba(87, 100, 98, 0.473);
+#sidebar {
+background-color: rgba(87, 100, 98, 0.473);
 width: 200px; 
 padding: 1rem; 
 list-style:none;
@@ -142,10 +141,7 @@ list-style:none;
     margin-top: 0;
 
   }
-  
 }
-
-
 
 .navbar-nav{
   padding-left: 20rem;
