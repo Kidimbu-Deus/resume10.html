@@ -13,13 +13,16 @@ body{
 
 header{
   text-align: center;
-  color: #fdfdfd; /*Set text color to white*/
+  color: black; /*Set text color to white*/
   background-color: #343330;
+  background-image: url(../images/IMG-1543.jpg) ;
+  background-size: cover;
+  background-repeat: no-repeat;
   justify-content: center; /*Move the text to middle of the page*/
   font-size: 25px;
   margin: 15px;
   margin-bottom: 0;
-
+  
 }
 
 #profilePhoto{
@@ -142,12 +145,7 @@ list-style:none;
   
 }
 
-#background{ background-image: url(../images/myPic.jpg);
-  background-color: white;
-  background-size: cover;
-  background-repeat: no-repeat;
-  
-}
+
 
 .navbar-nav{
   padding-left: 20rem;
@@ -173,6 +171,11 @@ list-style:none;
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
+  background-image: url(../images/IMG-1543444.jpg);
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
 }
 
 
