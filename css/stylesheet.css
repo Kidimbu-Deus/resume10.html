@@ -1,23 +1,35 @@
 #body{
   font-family: sans-serif;
   font-size:110%;
-  background-color: #857441;
+  background-color: beige;
   display: flex;
   flex-direction: column;
   border: 15px solid;
   border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
   margin:0;
+  padding: 0;
+}
+
+.heading{
+  font-weight: bolder;
+}
+
+.pb-2{
+  font-style: oblique;
+  font-weight: 800;
 }
 
 header{
   color: black; /*Set text color to white*/
-  background-color: #e4e2de;
+  background-color: #534a37;
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center; /*Move the text to middle of the page*/
   font-size: 25px;
+  padding-top: 5px; ;
 
 }
+
 
 #profilePhoto{
   width: 60%;
@@ -27,6 +39,7 @@ header{
   margin-top: 25px;
   background: transparent; /*Remove headshot background color*/
   padding-left: 0%;
+  filter: grayscale(100);
 }
 
 .main{
@@ -41,9 +54,8 @@ header{
 }
 
 #software{
-background-color: rgb(211, 211, 43);
-margin-bottom: 0;
-margin-right: 1rem
+background-color:lightgoldenrodyellow;
+margin: 0;
 
 }
 .listing{
@@ -57,6 +69,7 @@ footer{background-color: #dddad2;
   margin-top: 0;
 }
 
+
 #sidebar {
 background-color: rgba(109, 126, 123, 0.473);
 width: 200px; 
@@ -65,6 +78,22 @@ list-style:none;
 }
 
 #contents {padding: 1rem;
+}
+
+h3{
+  font-style: italic;
+}
+
+.about{
+  margin-right: 600px;
+}
+
+.card{
+  width: 8cm;
+  margin: 1rem;
+  border:0.5rem #050a06;
+  border-style: groove;
+  background: none;
 }
 
 @media screen and (min-width:600px) {
@@ -85,14 +114,14 @@ list-style:none;
     width: auto;
   }
 
-  footer{text-align: center;
+  footer{
+    text-align: center;
     height: auto;
     width: auto;
     margin: auto;
     margin-bottom: 0%;
 
   }
-  
 }
 
 @media screen and (min-width:768px) {
@@ -129,18 +158,20 @@ list-style:none;
     flex-direction: column;
     border: 15px solid;
     border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
-    margin: 10px;
+    margin: 15px;
+    padding: 0;
    
   }
 
   header{
     text-align: center;
     color: black; /*Set text color to white*/
-    background-color: #e4e2de;
+    background-color: lightgoldenrodyellow;
     justify-content: center; /*Move the text to middle of the page*/
     font-size: 25px;
-    margin-top: 2rem;
-    
+    margin-top: 0;
+    height: 400px;
+    padding-top:70px;
   }
 
   footer{background-color: #dddad2;
@@ -151,9 +182,8 @@ list-style:none;
   }
 }
 
-.container-fluid{
-  background-color: #857441;
-  
+.navigation{
+  background-color: #dddad2;
 }
 .navbar-nav{
   padding-left: -36rem;
@@ -173,19 +203,21 @@ list-style:none;
 .carousel-inner{
   width: 100%;
   height: 100%;
-  background-color: rgb(211, 211, 43);
-  margin-left: -0.5rem;
+  background-color: lightgoldenrodyellow;
+  padding: 0;
+  margin: 0;
 }
 
 .jumbotron {
   padding: 3rem;
   border-radius: 0;
-  background-image: url(../images/background.jpg);
+  background-image: url(/images/lightback.jpg);
   background-color:white ;
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
+  height: 500px;
 }
 
 @keyframes animationLogo {
