@@ -1,15 +1,3 @@
-#body{
-  font-family: sans-serif;
-  font-size:110%;
-  background-color: beige;
-  display: flex;
-  flex-direction: column;
-  border: 15px solid;
-  border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
-  margin:0;
-  padding: 0;
-}
-
 .navigation{
   background-color: #4a2545;
   height: 100px;
@@ -43,14 +31,14 @@
   font-size: 30px;
 }
 
-#sidebar {
+#Sidebar{
   background-color: rgba(109, 126, 123, 0.473);
   width: 200px; 
   padding: 1rem; 
   list-style:none;
   }
 
-.jumbotron {
+.jumbotron{
   padding: 3rem;
   border-radius: 0;
   background-image: url(/images/lightback.jpg);
@@ -83,7 +71,7 @@ header{
   padding-top: 15px;
 }
 
-#profilePhoto{
+#ProfilePhoto{
   width: 60%;
   height: 80%;
   border-radius: 100%;
@@ -104,7 +92,8 @@ header{
   padding: 0;
 }
 
-#contents {padding: 1rem;
+#Contents{
+  padding: 1rem;
 }
 
 .about{
@@ -132,7 +121,7 @@ h3{
   margin-right: 20px;
 }
 
-#myExpirience{
+#MyExpirience{
   background:none;
   margin-right: 0;
   padding-left: 1rem;
@@ -243,7 +232,7 @@ footer{
     flex-direction: column;
     border: 15px solid;
     border-color: rgba(0, 0, 0, 0.979); /*Set the color of border around the body to black*/
-    margin: 15px;
+    margin: 0;
     padding: 0;
   }
 
