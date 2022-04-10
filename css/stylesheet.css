@@ -8,6 +8,10 @@
   z-index: 1030;
 }
 
+.navbar-toggler{
+  margin-top: 20px;
+}
+
 .fixed-top{
   position: fixed;
   top: 0;
@@ -62,15 +66,6 @@
   font-weight: 800;
 }
 
-header{
-  background-color: #dccca3;
-  background-size: cover;
-  background-repeat: no-repeat;
-  justify-content: center; /*Move the text to middle of the page*/
-  font-size: 25px;
-  padding-top: 15px;
-}
-
 #ProfilePhoto{
   width: 60%;
   height: 80%;
@@ -79,17 +74,6 @@ header{
   margin-top: 25px;
   background: transparent; /*Remove headshot background color*/
   padding-left: 0%;
-}
-
-.main{
-  display: flex;
-  flex-direction: row;
-  overflow:unset; /*Content fits perfectly on specified area*/
-  margin: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  background:none;
-  padding: 0;
 }
 
 #Contents{
@@ -137,13 +121,6 @@ h3{
   margin-right: 5px;
 }
 
-footer{
-  background-color: #4a2545;
-  text-align: center;
-  margin: 15px;
-  margin-top: 0;
-}
-
 @keyframes animationLogo {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -166,14 +143,19 @@ footer{
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
-
+/*Screen size for mobile device*/
 @media screen and (max-width:767px) {
   body{
     height: auto;
     width: auto;
     font-size:small;
     display: block;
-    margin: auto;
+    margin:0;
+    margin-bottom: -35px;
+    background-color: beige;
+    background-image: url(/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
   }
 
   header{
@@ -183,29 +165,58 @@ footer{
     margin-bottom: 0%;
     height: auto;
     width: auto;
-    background-color:#dccca3;
+    background-color: #afaa9e;
+    padding: 10px;
+    padding-bottom: 15px;
   }
 
+  .main{
+    display: flex;
+    flex-direction: row;
+    overflow:unset; /*Content fits perfectly on specified area*/
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background:none;
+    padding: 0;
+    font-size: small;
+  }
+
+  .mx-auto{
+    width: 150px;
+    height: 150px;
+  }
+
+  .carousel-inner{
+    padding-bottom: 2rem;
+  }
   footer{
     text-align: center;
     height: auto;
     width: auto;
-    margin: auto;
-    margin-bottom: 0%;
+    margin: 0;
+    margin-bottom: 0;
+    background-color: #4a2545;
   }
 
-  .main{
-    font-size: small;
+  .icons{
+    width: 150px;
+    height: 150px;
   }
 }
 
+/*Screen size for tablet*/
 @media screen and (min-width:768px) {
   body{
     height: auto;
     width: auto;
     font-size: medium;
     display: block;
-    margin: auto;
+    margin: 0;
+    margin-bottom: 0;
+    background-image: url(/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
+    background-position: center;
+    background-size: contain;
    }
 
    header{height: auto;
@@ -213,8 +224,19 @@ footer{
     font-size: medium;
     display: block;
     margin: auto;
-    background-color: #dccca3;
-    padding-bottom: 300px;
+    background-color: #afaa9e;
+  }
+
+  .main{
+    display: auto;
+    flex-direction: row;
+    overflow: unset; /*Content fits perfectly on specified area*/
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background:none;
+    padding: 0;
+    font-size: medium;
   }
 
   footer{
@@ -223,12 +245,14 @@ footer{
     font-size: medium;
     display: block;
     margin: auto;
+    background-color: #4a2545;
+    padding: 15px;
+    text-align: center;
   }
-  .main{
-    font-size: medium;
-  } 
+  
 }
 
+/*Screen size for laptop/computer*/
 @media  screen and (min-width:991px) {
   body{
     font-family: sans-serif;
@@ -244,18 +268,29 @@ footer{
   }
 
   header{
-    text-align: center;
-    background: none;
+    text-align:start;
+    background-color: #afaa9e;
     justify-content: center; /*Move the text to middle of the page*/
     font-size: 25px;
     margin-top: 0;
+    margin: 0;
     height: 300px;
-    padding-top:70px;
     background-size: cover;
     background-repeat: no-repeat;
-    justify-content: center; /*Move the text to middle of the page*/
     font-size: 25px;
-    padding-top: 36px; 
+    padding: 15px; 
+    padding-top: 18px;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: row;
+    overflow:unset; /*Content fits perfectly on specified area*/
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background:none;
+    padding: 0;
   }
 
   footer{
