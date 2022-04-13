@@ -66,15 +66,6 @@
   font-weight: 800;
 }
 
-#ProfilePhoto{
-  width: 60%;
-  height: 80%;
-  border-radius: 100%;
-  border: 0 solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
-  margin-top: 25px;
-  background: transparent; /*Remove headshot background color*/
-  padding-left: 0%;
-}
 
 #Contents{
   padding: 1rem;
@@ -101,10 +92,6 @@ h3{
   font-style:italic;
   font-size: 20px;
   text-decoration-line: underline;
-}
-
-.about{
-  margin-right: 20px;
 }
 
 #MyExpirience{
@@ -170,6 +157,15 @@ h3{
     padding-bottom: 15px;
   }
 
+  #ProfilePhoto{
+    width: 60%;
+    height: 80%;
+    border-radius: 100%;
+    border: 0 solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
+    margin-top: 1rem;
+    background: transparent; /*Remove headshot background color*/
+  }
+
   .main{
     display: flex;
     flex-direction: row;
@@ -229,6 +225,15 @@ h3{
     padding-bottom: 2rem;
   }
 
+  #ProfilePhoto{
+    width: 60%;
+    height: 80%;
+    border-radius: 100%;
+    border: 0 solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
+    margin-top: 1.5rem;
+    background: transparent; /*Remove headshot background color*/
+  }
+
   .main{
     display: auto;
     flex-direction: row;
@@ -279,9 +284,17 @@ h3{
     height: 300px;
     background-size: cover;
     background-repeat: no-repeat;
-    font-size: 25px;
-    padding: 15px; 
-    padding-top: 18px;
+    font-size: 25px; 
+    padding-bottom: 1rem;
+  }
+
+  #ProfilePhoto{
+    width: 60%;
+    height: 80%;
+    border-radius: 100%;
+    border: 0 solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
+    margin-top: 1.5rem;
+    background: transparent; /*Remove headshot background color*/
   }
 
   .main{
