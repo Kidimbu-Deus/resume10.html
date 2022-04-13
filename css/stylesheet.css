@@ -78,10 +78,10 @@
 .card{
   width: 8cm;
   margin: 1rem;
-  border:0 #9bb6a0;
+  border:0.2rem rgba(240, 248, 255, 0.658);
   border-style: groove;
-  background-color: grey;
-  color: black;
+  background-color: transparent;
+  color: white;
 }
 
 .listing{
@@ -145,15 +145,22 @@ h3{
     background-image: url(/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
     background-position: center;
     background-size: contain;
+    overflow-x: hidden;
   }
 
   header{
     background-color:transparent;
   }
 
+  .card-header{
+    background-color: rgba(240, 248, 255, 0.658);
+    color: black;
+    border-radius: 5rem;
+  }
+
   #ProfilePhoto{
-    width: 60%;
-    height: 80%;
+    width: 90px;
+    height: 120px;
     border-radius: 100%;
     border: 0 solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
     margin-top: 1rem;
@@ -207,18 +214,33 @@ h3{
     background-image: url(/images/annie-spratt-6a3nqQ1YwBw-unsplash.jpg);
     background-position: center;
     background-size: contain;
+    overflow-x:hidden;
    }
 
    header{
     background-color:transparent;
   }
 
+  .card-header{
+    background-color: rgba(240, 248, 255, 0.658);
+    color: black;
+    border-radius: 5rem;
+    font-size: large;
+    height: 400px;
+  }
+
+    .about-me{
+      margin-left: 7rem;
+      margin-top: 0.5rem;
+    }
+
   #ProfilePhoto{
-    width: 60%;
-    height: 80%;
+    width: 400px;
+    height: 300px;
     border-radius: 100%;
     border: 0 solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
     margin-top: 1.5rem;
+    margin-left: -0.2rem;
     background: transparent; /*Remove headshot background color*/
   }
 
@@ -248,7 +270,7 @@ h3{
 }
 
 /*Screen size for laptop/computer*/
-@media  screen and (min-width:991px) {
+@media  screen and (min-width:992px) {
   body{
     font-family: sans-serif;
     font-size:110%;
@@ -258,16 +280,19 @@ h3{
     background-size: contain;
     display: flex;
     flex-direction: column;
-    margin: 0;
     padding: 0;
+    overflow-x: hidden;
   }
 
   .card-header{
     background-color: rgba(240, 248, 255, 0.658);
     color: black;
-    padding-left: 6rem;
-    padding-top: 1.5rem;
     border-radius: 5rem;
+    height: 330px;
+  }
+
+  .about-me{
+    margin-left: -0.2rem;
   }
 
   header{
@@ -275,11 +300,11 @@ h3{
   }
 
   #ProfilePhoto{
-    width: 60%;
+    width: 300px;
     height: 80%;
+    margin-left: 4rem;
     border-radius: 100%;
     border: 0 solid rgb(0, 0, 0); /*Set color of border around headshot to black*/
-    margin-top: 1.5rem;
     background: transparent; /*Remove headshot background color*/
   }
 
