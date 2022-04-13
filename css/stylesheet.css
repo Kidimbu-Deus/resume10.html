@@ -225,6 +225,8 @@ h3{
     display: block;
     margin: auto;
     background-color: #afaa9e;
+    padding:1rem;
+    padding-bottom: 2rem;
   }
 
   .main{
