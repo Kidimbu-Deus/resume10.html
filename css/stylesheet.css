@@ -146,15 +146,15 @@ h3{
   }
 
   header{
-    text-align: center;
     font-size: small;
     margin: auto;
     margin-bottom: 0%;
     height: auto;
     width: auto;
     background-color: #afaa9e;
-    padding: 10px;
+    padding:2rem;
     padding-bottom: 15px;
+    color: black;
   }
 
   #ProfilePhoto{
@@ -221,8 +221,9 @@ h3{
     display: block;
     margin: auto;
     background-color: #afaa9e;
-    padding:1rem;
+    padding:2.5rem;
     padding-bottom: 2rem;
+    color: black;
   }
 
   #ProfilePhoto{
@@ -285,7 +286,8 @@ h3{
     background-size: cover;
     background-repeat: no-repeat;
     font-size: 25px; 
-    padding-bottom: 1rem;
+    padding: 1rem;
+    color: black;
   }
 
   #ProfilePhoto{
